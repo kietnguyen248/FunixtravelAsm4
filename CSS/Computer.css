@@ -1,0 +1,29 @@
+    body {
+        background-color: --background-main-color;
+    }
+    
+    .nav {
+        width: 90%;
+        margin: 15px 5%;
+        justify-content: space-around;
+    }
+    
+    .nav-item {
+        /* display: block; */
+    }
+    
+    .banner-caption {
+        bottom: 10%;
+    }
+    
+    .banner-caption>h1 {
+        font-size: 4rem;
+    }
+    
+    .banner-caption>p {
+        font-size: 3rem;
+    }
+    
+    .btn {
+        font-size: 1.25rem;
+    }

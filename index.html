@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="vn">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./fontawesome-free-5.6.3-web/css/all.css">
+
+    <!-- fontawesome CDN link import CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+
+
+    <link rel="stylesheet" href="./CSS/style.css">
+    <link rel="stylesheet" href="./CSS/Mobile.css" media="screen and (max-width: 767.8px)">
+    <link rel="stylesheet" href="./CSS/Tablet.css" media="screen and (min-width: 768px) and (max-width:991.8px)">
+    <link rel="stylesheet" href="./CSS/Computer.css" media="screen and (min-width: 992px)">
+
+    <title>DU LỊCH HỒ CHÍ MINH</title>
+</head>
+
+<body>
+
+
+    <!-- HEADER -->
+    <header class="fixed-top" style="background-color: white;">
+        <!-- topHeader -->
+        <div class="p-1" id="topHeader">
+            <div class="container">
+                <div class="row ">
+                    <div class="col-12 text-right ">
+                        <a href="tel:+84775670399"><i class="fa-solid fa-phone "></i>+84 77 567 0399</a>
+                        <a href="mailto:kietnguyen1234@gmail.com"><i class="fa-solid fa-envelope " style="margin-left:10px;"></i>kietnguyen12345@gmail.com</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- bottomHeader -->
+        <div class="container-fluid">
+            <!-- Navigation Bar -->
+            <nav class="navbar bg-dark navbar-dark navbar-expand-lg navbar-expand-md" style="background-color: #2980b9;">
+                <a class="nav-link text-white center navbar-brand" href="./index.html" style="padding: 0;">
+                    DU LỊCH HỒ CHÍ MINH
+                </a>
+                <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarToggler" type="button">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarToggler">
+                    <ul class="navbar-nav dropdown">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" data-toggle="dropdown" id="" href="#">Di tích lịch sử</a>
+                            <div class="dropdown-menu">
+                                <a href="./ditich.html#dinh-doc-lap" class="dropdown-item">Dinh Độc Lập</a>
+                                <a href="./ditich.html#nha-tho-duc-ba" class="dropdown-item">Nhà thờ Đức Bà</a>
+                                <a href="./ditich.html#dia-dao-cu-chi" class="dropdown-item">Địa đạo Củ Chi</a>
+                                <a href="./ditich.html#bao-tang-chien-tranh" class="dropdown-item">Bảo tàng Chứng tích Chiến Tranh</a>
+                            </div>
+
+                        </li>
+
+
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" data-toggle="dropdown" id="" href="#">Điểm hẹn giới trẻ</a>
+                            <div class="dropdown-menu">
+                                <a href="./diemhen.html#landmark-81" class="dropdown-item">Landmark 81</a>
+                                <a href="./diemhen.html#pho-di-bo-nguyen-hue" class="dropdown-item">Phố đi bộ Nguyễn Huệ</a>
+                                <a href="./diemhen.html#bitexco" class="dropdown-item">Bitexco</a>
+                                <a href="./diemhen.html#phong-tra-khong-ten" class="dropdown-item">Phòng trà không tên</a>
+                            </div>
+                        </li>
+
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="./tour.html">Đăng ký tour du lịch HCM</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="./login.html">Login</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- BANNER -->
+    <div class="banner position-relative">
+        <div id="carouselExampleControls" class="carousel slide position-relative" data-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <picture>
+                        <source media="(max-width: 767.8px)" srcset="./IMG/Mobile/Mobile_Landmark_1pexels-quang-nguyen-vinh-6128392 copy.jpg">
+                        <source media="(max-width:991.8px)" srcset="./IMG/Tablet/Tablet_Landmark1_pexels-quang-nguyen-vinh-6128392.jpg">
+                        <img src="./IMG/Landmark81/pexels-quang-nguyen-vinh-6128392.jpg" alt="Flowers" style="width:100%;height: auto;">
+                    </picture>
+
+                </div>
+                <div class="carousel-item">
+                    <picture>
+                        <img src="./IMG/Bitexco/Bitexco_HCM.jpeg" alt="Flowers" style="width:100%;height: auto;">
+                    </picture>
+                </div>
+                <div class="carousel-item">
+                    <picture>
+                        <img src="./IMG/Landmark81/pexels-quang-nguyen-vinh-6128403.jpg" alt="Flowers" style="width:100%;height: auto;">
+                    </picture>
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+        <div class="position-absolute banner-caption text-center">
+            <h1>Chào mừng đến với TP. Hồ Chí Minh</h1>
+            <p>Hân hạnh phục vụ quý khách</p>
+        </div>
+    </div>
+
+    <!-- MAIN -->
+    <main>
+        <!-- Accordion Bootstrap 4 -->
+        <div id="accordion">
+            <div class="card">
+                <div class="card-header" id="headingOne">
+                    <h5 class="mb-0">
+                        <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                            Tổng quan Hồ Chí Minh <i class="fa-solid fa-angle-down"></i>
+                        </button>
+                    </h5>
+                </div>
+
+                <div id="collapseOne" class="collapse show container-fluid px-3" aria-labelledby="headingOne" data-parent="#accordion">
+                    <div class="row">
+                        <div class="card-body col-md-6 col-xs-12 text-justify mb-0">
+                            <p>Được mệnh danh là “Hòn ngọc Viễn Đông”, TP.HCM từ lâu đã là trung tâm văn hóa, kinh tế, chính trị của Việt Nam.</p>
+                            <p class="mb-0">Du lịch đến với Sài Gòn – TP.HCM hơn 300 năm tuổi, bạn có thể gặp những tòa nhà cao tầng nằm san sát, những khu vui chơi giải trí, trung tâm mua sắm sầm uất, nhưng cũng không thiếu những biệt thự cổ kính, những ngôi chợ truyền
+                                thống tồn tại đã hàng trăm năm. Sài Gòn rộng lớn và không thiếu những “đặc sản” du lịch như Du ngoạn ven sông Sài Gòn bằng tàu, thăm phố Tây Phạm Ngũ Lão, mua sắm ở chợ Bến Thành hay về với biển Cần Giờ…</p>
+                        </div>
+                        <div class="iframeMaps col-md-6  col-xs-12">
+                            <iframe class="w-100 h-100" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d198772.0815921617!2d106.55822002754222!3d10.917712918159566!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x317529292e8d3dd1%3A0xf15f5aad773c112b!2zSOG7kyBDaMOtIE1pbmgsIFRow6BuaCBwaOG7kSBI4buTIENow60gTWluaCwgVmnhu4d0IE5hbQ!5e0!3m2!1svi!2s!4v1657097057825!5m2!1svi!2s"
+                                allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" style="width:500px;margin:auto;"></iframe id="iframeMaps">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                    <div class="card-header" id="headingTwo">
+                        <h5 class="mb-0">
+                            <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                Khí hậu <i class="fa-solid fa-angle-down"></i>
+                             </button>
+                        </h5>
+                    </div>
+                    <div id="collapseTwo" class="collapse  px-3 text-justify mb-0" aria-labelledby="headingTwo" data-parent="#accordion">
+                        <div class="row">
+                            <div class="card-body col-md-6 col-xs-12">
+                                <p >TP.HCM có 2 mùa phân hóa rõ rệt: Mùa mưa từ tháng 5 đến tháng 11, mùa khô từ tháng 12 đến tháng 4. Nếu đến đây vào mùa mưa, bạn nên mang theo ô (dù) hoặc áo mưa khi ra ngoài vì Sài Gòn nổi tiếng với nhiều cơn mưa bất chợt.
+                                    Mưa rồi lại tạnh, tạnh rồi lại mưa. Ngoài ra, TP.HCM cũng là nơi tràn ngập nắng vàng. Ước tính, ở đây có tới 270 giờ nắng một tháng, nhiệt độ trung bình 27°C, cao nhất lên tới 40 °C nhưng không quá gay gắt như những nơi
+                                    khác.
+                                </p>
+                            </div>
+                            <div class="iframeMaps col-md-6  col-xs-12">
+                                
+
+                                <figure class="text-justify">
+                                    <img src="./IMG/khiHau.jpeg" alt="HCM mùa mưa" width="100%" height="auto">
+                                    <figcaption >TP. HCM mùa mưa</figcaption>
+                                </figure>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header" id="headingThree">
+                        <h5 class="mb-0">
+                            <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                            Phương tiện đi lại khi du lịch Sài Gòn <i class="fa-solid fa-angle-down"></i>
+                            </button> 
+                        </h5>
+                    </div>
+                    <div id="collapseThree" class="collapse  px-3 text-justify mb-0" aria-labelledby="headingThree" data-parent="#accordion">
+                        <div class="row">
+                            <div class="card-body">
+                                <p>Phương tiện đi lại chủ yếu cho du khách du lịch Sài Gòn chủ yếu là xe máy, kế đó là ô tô, xe đạp, xe buýt, xe xích lô. Phương tiện di chuyển công cộng rẻ nhất là xe buýt chỉ 5.000VND/tuyến, kế đó là xe ôm và và taxi. Hiện nay,
+                                    mật độ giao thông ở TP.HCM khá đông đúc, nhiều đoạn đường trong thành phố xảy ra tình trạng kẹt xe vào giờ tan tầm: từ 7h00 – 8h00 sáng và 17h00 – 18h00 chiều.</p>
+                            </div>
+                        </div>
+                        <div class="row">   
+                            <div class="iframeMaps col-lg-4 col-md-6  col-xs-12">
+                                <figure class="text-justify">
+                                    <img src="./IMG/PhuongTienDiLai/xeTaxi.jpeg" alt="HCM mùa mưa" width="100%" height="auto">
+                                    <figcaption >Du lịch với xe taxi</figcaption>
+                                </figure>
+                            </div>
+                            <div class="iframeMaps col-lg-4 col-md-6  col-xs-12">
+                                <figure class="text-justify">
+                                    <img src="./IMG/PhuongTienDiLai/xeBus.jpeg" alt="HCM mùa mưa" width="100%" height="auto">
+                                    <figcaption >Du lịch với xe bus</figcaption>
+                                </figure>
+                            </div>
+                            <div class="iframeMaps col-lg-4 col-md-6  col-xs-12">
+                                <figure class="text-justify">
+                                    <img src="./IMG/PhuongTienDiLai/waterBus.jpeg" alt="HCM mùa mưa" width="100%" height="auto">
+                                    <figcaption >Du lịch sông với water bus</figcaption>
+                                </figure>
+                            </div>
+                            <div class="iframeMaps col-lg-4 col-md-6  col-xs-12">
+                                <figure class="text-justify">
+                                    <img src="./IMG/PhuongTienDiLai/xeMay.jpeg" alt="HCM mùa mưa" width="100%" height="auto">
+                                    <figcaption >Thuê xe máy du lịch TP. HCM</figcaption>
+                                </figure>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header" id="headingFour">
+                        <h5 class="mb-0">
+                            <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                Số điện thoại cần biết <i class="fa-solid fa-angle-down"></i>
+
+
+                  </button>
+                        </h5>
+                    </div>
+                    <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordion">
+                        <div class="card-body">
+                            <ul class="pl-3">
+                                <li>Bệnh viện Đại học Y dược: <a href="tel:+84838554269">0838 554 269</a></li>
+                                
+
+                                <li>Bệnh viện Q.1:  <a href="tel:+84838202060">0838 202 060</a></li>
+                                <li>Bệnh viện Chợ Rẫy: <a href="tel:+84838 554 1370">0838 554 1370</a></li>
+                                <li>Bệnh viện FV: <a href="tel:+84854113333">0854 113 333</a></li>
+                                <li>Chữa cháy: <a href="tel:+84114">114</a></li>
+                                <li>Công An: <a href="tel:+84113">113</a></li>
+                                <li>Cấp cứu: <a href="tel:+84115">115</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+    </main>
+
+    <!-- FOOTER -->
+    <footer>
+        <footer class="text-center text-white " style="background-color: #caced1; ">
+            <!-- Grid container -->
+            <div class="container-fluid p-1 ">
+                <!-- Section: Images -->
+                <section class=" ">
+                    <div class="row ">
+
+                        <div class="col-lg-2 col-md-12 mb-4 mb-md-0 ">
+                            <div class="bg-image hover-overlay ripple shadow-1-strong rounded " data-ripple-color="light ">                                
+                                <a href="./diemhen.html#landmark-81">
+                                    <img src="./IMG/Landmark81/pexels-quang-nguyen-vinh-6128392.jpg " class="w-100 " />
+                                    <div class="mask " style="background-color: rgba(251, 251, 251, 0.2); "></div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-lg-2 col-md-12 mb-4 mb-md-0 ">
+                            <div class="bg-image hover-overlay ripple shadow-1-strong rounded " data-ripple-color="light ">
+                                <a href="./diemhen.html#landmark-81">
+                                    <img src="./IMG/Bitexco/Bitexco_HCM.avif " class="w-100 " />
+                                    <div class="mask " style="background-color: rgba(251, 251, 251, 0.2); "></div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-lg-2 col-md-12 mb-4 mb-md-0 ">
+                            <div class="bg-image hover-overlay ripple shadow-1-strong rounded " data-ripple-color="light ">
+                                <a href="./ditich.html#dia-dao-cu-chi">
+                                    <img src="./IMG/DiaDaoCuChi/81067027_2848786538512206_1758360860817883136_o.jpg " class="w-100 " />
+                                    <div class="mask " style="background-color: rgba(251, 251, 251, 0.2); "></div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-lg-2 col-md-12 mb-4 mb-md-0 ">
+                            <div class="bg-image hover-overlay ripple shadow-1-strong rounded " data-ripple-color="light ">
+                                <a href="./diemhen.html#landmark-81">
+                                    <img src="./IMG/Landmark81/pexels-quang-nguyen-vinh-6128403.jpg " class="w-100 " />
+                                    <div class="mask " style="background-color: rgba(251, 251, 251, 0.2); "></div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-lg-2 col-md-12 mb-4 mb-md-0 ">
+                            <div class="bg-image hover-overlay ripple shadow-1-strong rounded " data-ripple-color="light ">
+                                <a href="/diemhen.html#pho-di-bo-nguyen-hue">
+                                    <img src="./IMG/PhoDiBo/pho-di-bo-nguyen-hue-15_cropped.jpg " class="w-100 " />
+                                    <div class="mask " style="background-color: rgba(251, 251, 251, 0.2); "></div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-lg-2 col-md-12 mb-4 mb-md-0 ">
+                            <div class="bg-image hover-overlay ripple shadow-1-strong rounded " data-ripple-color="light ">
+                                <a href="./ditich.html#dinh-doc-lap">
+                                    <img src="./IMG/DinhDocLap/dinhDocLap_cropped.jpg " class="w-100 " />
+                                    <div class="mask " style="background-color: rgba(251, 251, 251, 0.2); "></div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <!-- Section: Images -->
+            </div>
+            <!-- Grid container -->
+
+            <!-- Copyright -->
+            <div class="text-center p-3 " style="background-color: rgba(0, 0, 0, 0.2); ">
+                © 2020 Copyright:
+                <a class="text-white " href="https://mdbootstrap.com/ ">MDBootstrap.com</a>
+            </div>
+            <!-- Copyright -->
+        </footer>
+    </footer>
+
+
+
+    <!-- Script -->
+    <script src="./bootstrap/js/jquery-3.3.1.slim.min.js "></script>
+    <script src="./bootstrap/js/popper.min.js "></script>
+    <script src="./bootstrap/js/bootstrap.min.js "></script>
+
+</body>
+
+</html>

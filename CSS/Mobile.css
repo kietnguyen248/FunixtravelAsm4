@@ -1,0 +1,19 @@
+body {
+    background-color: --background-main-color;
+}
+
+.navbar {
+    width: 100%;
+    padding-left: 5vh;
+}
+
+.navbar-brand {
+    display: block;
+}
+
+
+/* Banner */
+
+.btn {
+    font-size: 1.1rem;
+}
